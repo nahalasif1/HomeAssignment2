@@ -11,8 +11,9 @@
   </padding>
 
   <Button mnemonicParsing="false" onAction="#setEN" fx:id="button1" prefHeight="26.0" prefWidth="144.0" text="text= %button1.text"  />
-  <Button mnemonicParsing="false" onAction="#setIR"fx:id="button2" prefHeight="26.0" prefWidth="141.0" text="%button2.text" />
+  <Button mnemonicParsing="false" onAction="#setIR" fx:id="button2" prefHeight="26.0" prefWidth="141.0" text="%button2.text" />
   <Button mnemonicParsing="false" onAction="#setJP" fx:id="button3"  prefHeight="26.0" prefWidth="144.0" text="%button3.text"  />
 
   <Label fx:id="welcomeText" />
+  <Label fx:id="footerLabel" layoutX="10" layoutY="220" />
 </VBox>
